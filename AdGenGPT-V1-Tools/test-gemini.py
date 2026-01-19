@@ -14,7 +14,7 @@ response = client.models.generate_content(
     config=types.GenerateContentConfig(
         response_modalities=["TEXT", "IMAGE"],
         image_config=types.ImageConfig(
-            aspect_ratio="32:9",
+            aspect_ratio="16:9",
             image_size="4K"
         ),
     )

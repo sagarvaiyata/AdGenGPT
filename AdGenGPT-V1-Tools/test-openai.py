@@ -22,7 +22,7 @@ img = client.images.generate(
   background="auto",
   n=1,
   quality="high",
-  size="5120x1440",
+  size="1536x1024",
   output_format="png",
   moderation="auto",
 )
